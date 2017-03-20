@@ -67,7 +67,7 @@ app.get("/api/waitlist", function(req, res) {
 // dependencies
 const jsonfile = require('jsonfile');
 
-// save new reservation
+
 function saveReservation(reservation) {
     // set file location
     const file = './reservations.json';
